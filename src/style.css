@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Rubik', sans-serif;   
+
+
+}
+
+header{
+    background-color: #FFA200;
+    width: 100%;
+    display: flex;
+    font-size: 24px;
+    margin: 0;
+    padding-left: 20px;
+    border: 0;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Rubik', sans-serif; 
+}
+
+.label-container > input{
+    width: 40px;
+    border-radius: 4px;
+    margin: 10px;
+
+}
+
+.restart{
+   margin-left: 15px;
+}
+
+.Timer{
+    font-size: 8rem;
+    padding-bottom: 20px;
+    padding-top: 80px;
+    margin: 0;
+   
+}
+
+button{
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #FFA200;
+    border: none;
+    
+}
+
+.message-container > input{
+    margin-right: 60px;
+    margin-left: 10px;
+    border-radius: 4px;
+
+}
+
+input{
+    padding: 5px;
+    border: 1px solid black;
+}
